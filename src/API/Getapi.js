@@ -8,5 +8,5 @@ const apiget = async (querystring) => {
 };
 
 export const searchshow = (query) => {
-  return apiget(`/search/shows?q=${query}`);
+  return apiget(`sda/search/shows?q=${query}`);
 };

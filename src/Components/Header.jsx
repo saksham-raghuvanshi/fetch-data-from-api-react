@@ -6,6 +6,7 @@ import { searchshow } from "../API/Getapi";
 const Header = () => {
   const [input, setInput] = useState("");
   const [apidata, setapidata] = useState(null);
+  const [apidataerror, setapidataerror] = useState(null);
 
   console.log(input);
   const onsearchinput = (ev) => {
@@ -15,8 +16,13 @@ const Header = () => {
   const inputsubmit = async (ev) => {
     ev.preventDefault();
 
-    const result = await searchshow(input);
-    setapidata(result);
+    try {
+      setapidataerror(null);
+      const result = await searchshow(input);
+      setapidata(result);
+    } catch (error) {
+      setapidataerror(error);
+    }
 
     //Now we find show by apiget(/search/shows?q=${input});
 
@@ -29,6 +35,9 @@ const Header = () => {
 
   //apidata can't be null show error
   const renderapi = () => {
+    if (apidataerror) {
+      return <div>{apidataerror.message}</div>; // for error
+    }
     if (apidata) {
       return apidata.map((data) => (
         <div key={data.show.id}>{data.show.name}</div>
