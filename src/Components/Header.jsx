@@ -38,6 +38,10 @@ const Header = () => {
     if (apidataerror) {
       return <div>{apidataerror.message}</div>; // for error
     }
+
+    if (apidata?.length === 0) {
+      return "No Result";
+    }
     if (apidata) {
       return apidata.map((data) => (
         <div key={data.show.id}>{data.show.name}</div>
