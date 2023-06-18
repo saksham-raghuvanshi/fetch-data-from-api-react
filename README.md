@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# Fetch API Data in React with TVMaze API
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project demonstrates how to fetch data from the TVMaze API using React.js. It provides an example of making HTTP requests to retrieve TV show information and display it on a webpage.
 
-## Available Scripts
+<h2>Features</h2>
+<ul>
+<li>React components: The project is built using React.js, utilizing its component-based architecture to structure the application.</li>
+<li>Fetch API integration: It demonstrates how to use the Fetch API, a modern JavaScript feature for making asynchronous network requests, to fetch data from the TVMaze API.</li>
+<li>TV show information display: Once the data is successfully fetched, the project renders TV show information dynamically on the webpage, allowing users to view details such as show name, summary, and image.</li>
+<li>Error handling: The project includes error handling mechanisms to handle failed API requests and display appropriate error messages to the user.</li>
+<li>Code export: You can export the project's code for further use or integration into other projects.</li>
+</ul>
 
-In the project directory, you can run:
+![image](https://github.com/saksham-raghuvanshi/fetch-data-from-api-react/assets/86155054/b24678be-de43-4294-aeea-f83c5c8dc57f)
 
-### `npm start`
+![image](https://github.com/saksham-raghuvanshi/fetch-data-from-api-react/assets/86155054/023cc584-1ca7-4185-82c1-5a162b89c41a)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+<h2>Getting Started</h2>
+To use the Fetch API Data in React with the TVMaze API project locally, follow these steps:
+<ul>
+<li>Clone the repository: git clone https://github.com/saksham-raghuvanshi/fetch-data-from-api-react.git</li>
+<li>Navigate to the project directory: cd fetch-data-from-api-react</li>
+<li>Install dependencies: npm install</li>
+<li>Start the development server: npm start</li>
+<li>Open your web browser and go to http://localhost:3000 to see the project in action.</li>
+</ul>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+Dependencies
+The Fetch API Data in React with TVMaze API project relies on the following dependencies:
+<ul>
+<li>React.js: A JavaScript library for building user interfaces.</li>
+<li>Other dependencies that might be used for styling, routing, or additional functionality.</li>
+<li>You can find the complete list of dependencies in the package.json file.</li>
+</ul>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<h2>Contributing</h2>
+Contributions to this Fetch API Data in React with TVMaze API project are welcome! If you find any issues or have suggestions for improvements, please open an issue on the GitHub repository.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<h3>Fork the repository.</h3>
+<ul>
+<li>Create a new branch for your feature or bug fix: git checkout -b feature/your-feature.</li>
+<li>Make your changes and test them thoroughly.</li>
+<li>Commit your changes: git commit -am 'Add new feature'.</li>
+<li>Push the branch to your forked repository: git push origin feature/your-feature.</li>
+<li>Open a pull request on the main repository.</li>
+<li>Please ensure that your code adheres to the existing coding style and that you include appropriate tests.</li>
+</ul>
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
